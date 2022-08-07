@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "GraphQL server for todolist app",
+  "main": "server.js",
+  "repository": "https://github.com/tiloic972/todolist",
+  "author": "loic.isaac",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon exec babel-node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
+  "type": "module"
+}
